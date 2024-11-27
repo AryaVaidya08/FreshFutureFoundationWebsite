@@ -34,7 +34,7 @@ export default function LandingPage() {
                     <img className="blankImg" src="images/water-mission.jpg" style={{height: 300, width: 500}} />
                     <div className="misson-text">
                         <h1 id="missionTitle" className="redhat-bold">Our Mission</h1>
-                        <p id="normalLandText" className="manrope-regular">About 11% of the world's population lacks access to improved water sources. Helping even one person to access safe drinking water is a step in the right direction. Our plan focuses on aiding small villages in India with inaccessible or contaminated water. We aim to support organizations working in these areas and provide supplies. Donations will fund water purification and essential resources for the people.</p>
+                        <p id="normalLandText" className="manrope-regular">About 11% of the world&apos;s population lacks access to improved water sources. Helping even one person to access safe drinking water is a step in the right direction. Our plan focuses on aiding small villages in India with inaccessible or contaminated water. We aim to support organizations working in these areas and provide supplies. Donations will fund water purification and essential resources for the people.</p>
                     </div>
                 </div>
                 <div className="innovation-section">

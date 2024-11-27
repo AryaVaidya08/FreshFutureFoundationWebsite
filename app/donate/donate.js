@@ -28,7 +28,7 @@ export default function DonatePage() {
                                 <div className="lineBreak"></div>
                                 <div className="method-details">
                                     <h1 className="method-name redhat-semibold ">HackClub</h1>
-                                    <p className="method-directions manrope-light">Send all donation money through HackClub's website. All at once or a reccuring payment.</p>
+                                    <p className="method-directions manrope-light">Send all donation money through HackClub&apos;s website. All at once or a reccuring payment.</p>
                                 </div>
                             </a>
                             {/*

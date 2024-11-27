@@ -34,7 +34,7 @@ export default function AboutPage() {
                     <div className="storySection">
                         <img className="blankImg" src="/images/boy-drinking-water.jpg" style={{height: 312.5, width: 500}} />
                         <p className="storyText cloud-3 manrope-regular">
-                            <p className="cloudText"><br></br><br></br>For Arya's whole life, he had always had a particular interest in trying to save our planet and our people with any type of technology. When he went to Mumbai in 2019 for the summer, it was there he understood how hard it was for people to get water just to survive and feed their families. After that trip and hearing about this new foundation that Saketh and Ethan started, I jumped to join and gladly offered my coding expertise to help make the Fresh Future Foundation website.</p>
+                            <p className="cloudText"><br></br><br></br>For Arya&apos;s whole life, he had always had a particular interest in trying to save our planet and our people with any type of technology. When he went to Mumbai in 2019 for the summer, it was there he understood how hard it was for people to get water just to survive and feed their families. After that trip and hearing about this new foundation that Saketh and Ethan started, I jumped to join and gladly offered my coding expertise to help make the Fresh Future Foundation website.</p>
                         </p>
                     </div>
 
