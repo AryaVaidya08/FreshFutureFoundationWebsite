@@ -530,6 +530,7 @@
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-bottom-color: rgba(112, 122, 135, 0.85);
+    z-index: 1;
 }
   
 .header-section {
