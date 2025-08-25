@@ -61,15 +61,6 @@ export default function AboutPage() {
                             </div>
                             <div className="disc-div"><p className="person-disc manrope-light">Ethan is a junior currently attending Bridgewater-Raritan High School.  He volunteers to serve his community, partakes in extra-curriculars to better round himself, and aspires to explore the engineering field. In his free time, he enjoys playing video games and talking with friends.</p></div>
                         </div>
-                        <div className="person-card">
-                            <div className="stuff-div">
-                                <img className="blankImg top-margin" src="images/arya-headshot.png" style={{height: 175, width: 175}}></img>
-                                <h1 className="person-name redhat-bold">Arya Vaidya</h1>
-                                <h6 className="person-title manrope-semibold">Co-Founder + Webmaster</h6>
-                                <p className="break-line"></p>
-                            </div>
-                            <div className="disc-div"><p className="person-disc manrope-light">Arya is currently attending Bridgewater-Raritan High School as a junior. He volunteers all over his community, such as: at his local temple, multiple libraries, and at cleanups for the community. He would like to pursue a career in Computer Science and likes to spend his free time playing with his friends.
-</p></div>
                         </div>
                         <div className="person-card">
                             <div className="stuff-div">
