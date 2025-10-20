@@ -1,10 +1,18 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
 import "./header.css";
 import "../styles/fonts.css";
 
 import Link from "next/link";
 
 export default function Header() {
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setIsMenuOpen(!isMenuOpen);
+    };
+
     return (
         <header className="header">
             <div className="header-section" id="logo-section">
@@ -18,6 +26,21 @@ export default function Header() {
                 {/*<Link href="our-plan"><button className="header-page-text redhat-regular">Our Plan</button></Link>*/}
                 <Link href="join"><button className="header-page-text redhat-regular">Join Us</button></Link>
                 <a target="_blank" href="https://fresh-hacks.devpost.com/"><button className="header-page-text redhat-regular">FreshHacks</button></a>
+            </div>
+
+            {/* Mobile Menu Button */}
+            <button className="mobile-menu-btn" onClick={toggleMenu}>
+                <span className="hamburger-line"></span>
+                <span className="hamburger-line"></span>
+                <span className="hamburger-line"></span>
+            </button>
+
+            {/* Mobile Menu */}
+            <div className={`mobile-menu ${isMenuOpen ? 'mobile-menu-open' : ''}`}>
+                <Link href="about"><button className="mobile-menu-text redhat-regular" onClick={toggleMenu}>About Us</button></Link>
+                <Link href="donate"><button className="mobile-menu-text redhat-regular" onClick={toggleMenu}>Donate</button></Link>
+                <Link href="join"><button className="mobile-menu-text redhat-regular" onClick={toggleMenu}>Join Us</button></Link>
+                <a target="_blank" href="https://fresh-hacks.devpost.com/"><button className="mobile-menu-text redhat-regular" onClick={toggleMenu}>FreshHacks</button></a>
             </div>
         </header>
     );

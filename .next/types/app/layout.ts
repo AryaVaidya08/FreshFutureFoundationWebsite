@@ -1,4 +1,4 @@
-// File: /Users/arya/Documents/CodeProjects/Full-Stack Dev/NewProject/fresh-future/app/layout.js
+// File: /Users/arya/Documents/CodeProjects/FreshFutureFoundationWebsite/app/layout.js
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

@@ -7,6 +7,9 @@
 .sideWaveImg {
     opacity: 0.90;
     z-index: 0;
+    height: 700px;
+    width: 150px;
+    object-fit: cover;
 }
 
 .main-welcome {
@@ -213,6 +216,15 @@
     align-items: center;
     justify-content: center;
     border-radius: 24px;
+    height: 300px;
+    width: 500px;
+    object-fit: cover;
+}
+
+.megaphone-img {
+    height: 300px;
+    width: 500px;
+    object-fit: contain;
 }
 
 
@@ -308,5 +320,210 @@
     text-align: center;
     font-size: 50px;
     border-radius: 20px;
+}
 
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .welcomeText {
+        font-size: 70px;
+    }
+    
+    .welcomeDisc {
+        font-size: 28px;
+        width: 50%;
+    }
+    
+    .welcome-buttons1, .welcome-buttons2 {
+        height: 80px;
+        width: 250px;
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 992px) {
+    .main-welcome {
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    .sideWaveImg {
+        display: none;
+    }
+    
+    .welcomeText {
+        font-size: 60px;
+    }
+    
+    .welcomeDisc {
+        font-size: 24px;
+        width: 70%;
+    }
+    
+    .our-mission {
+        flex-direction: column;
+        padding: 40px 20px;
+    }
+    
+    .misson-text {
+        margin-top: 20px;
+    }
+    
+    #normalLandText {
+        width: 100%;
+        font-size: 18px;
+    }
+    
+    .innovation-section {
+        flex-direction: column;
+        padding: 40px 20px;
+    }
+    
+    .bullets-section {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .inner-section {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+    
+    .buzzword-item {
+        width: 100%;
+        margin-bottom: 20px;
+        height: auto;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .welcomeText {
+        font-size: 45px;
+    }
+    
+    .welcomeDisc {
+        font-size: 20px;
+        width: 90%;
+    }
+    
+    .welcome-buttons1, .welcome-buttons2 {
+        height: 70px;
+        width: 200px;
+        font-size: 24px;
+    }
+    
+    #thing2 {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .learnmore {
+        margin-right: 0;
+    }
+    
+    .donate-button {
+        margin-left: 0;
+    }
+    
+    #missionTitle {
+        font-size: 35px;
+    }
+    
+    #normalLandText {
+        font-size: 16px;
+    }
+    
+    .bullets-subtitle {
+        font-size: 28px;
+    }
+    
+    .bullet-section-text {
+        font-size: 20px;
+    }
+    
+    .bullet-section-desc {
+        font-size: 14px;
+    }
+    
+    .buzzword-word {
+        font-size: 32px;
+    }
+    
+    .buzzword-disc {
+        font-size: 14px;
+        height: auto;
+        padding: 15px;
+    }
+    
+    .blankImg {
+        width: 100%;
+        height: 250px;
+    }
+    
+    .megaphone-img {
+        width: 100%;
+        height: 250px;
+    }
+}
+
+@media (max-width: 480px) {
+    .welcomeText {
+        font-size: 35px;
+    }
+    
+    .welcomeDisc {
+        font-size: 18px;
+    }
+    
+    .welcome-buttons1, .welcome-buttons2 {
+        height: 60px;
+        width: 180px;
+        font-size: 20px;
+    }
+    
+    #missionTitle {
+        font-size: 28px;
+    }
+    
+    #normalLandText {
+        font-size: 15px;
+    }
+    
+    .bullets-subtitle {
+        font-size: 24px;
+    }
+    
+    .bullet-section-text {
+        font-size: 18px;
+    }
+    
+    .bullet-section-desc {
+        font-size: 13px;
+    }
+    
+    .buzzword-word {
+        font-size: 28px;
+    }
+    
+    .buzzword-disc {
+        font-size: 13px;
+    }
+    
+    .blankImg {
+        height: 200px;
+    }
+    
+    .megaphone-img {
+        height: 200px;
+    }
+    
+    .graphic-bullet-img {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .bullet-text {
+        margin-left: 15px;
+    }
 }

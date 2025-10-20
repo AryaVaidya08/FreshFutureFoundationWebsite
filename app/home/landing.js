@@ -5,12 +5,12 @@ import "./landing.css"
 
 export default function LandingPage() {
     return (
-        <main>
-            
+        <div className="page-wrapper">
             <Header />
-            <section className="landing-content">
+            <main className="page-content">
+                <section className="landing-content">
                 <div className="main-welcome">
-                    <img className="sideWaveImg" src="images/left-wave2.png" style={{height: 700, width: 150}}></img>
+                    <img className="sideWaveImg" src="images/left-wave2.png" alt="Decorative wave"></img>
                     <div className="main-welcome-text">
                         <div>
                             <div className="titleTextRow">
@@ -28,10 +28,10 @@ export default function LandingPage() {
                             <Link href="donate"><button className="welcome-buttons2 manrope-semibold donate-button">Donate Now</button></Link>
                         </div>
                     </div>
-                    <img className="sideWaveImg" src="images/right-wave2.png" style={{height: 700, width: 150}}></img>
+                    <img className="sideWaveImg" src="images/right-wave2.png" alt="Decorative wave"></img>
                 </div>
                 <div className="our-mission">
-                    <img className="blankImg" src="images/water-mission.jpg" style={{height: 300, width: 500}} />
+                    <img className="blankImg" src="images/water-mission.jpg" alt="Water mission" />
                     <div className="misson-text">
                         <h1 id="missionTitle" className="redhat-bold">Our Mission</h1>
                         <p id="normalLandText" className="manrope-regular">About 11% of the world&apos;s population lacks access to improved water sources. Helping even one person to access safe drinking water is a step in the right direction. Our plan focuses on aiding small villages in India with inaccessible or contaminated water. We aim to support organizations working in these areas and provide supplies. Donations will fund water purification and essential resources for the people.</p>
@@ -56,7 +56,7 @@ export default function LandingPage() {
                             </div>
                         </div>
                     </div>
-                    <img src="images/megaphone-graphic.png" style={{height: 300, width: 500}}></img>
+                    <img src="images/megaphone-graphic.png" alt="Megaphone graphic" className="megaphone-img"></img>
                 </div>
                 <div className="buzzwords">
                     <div className="inner-section">
@@ -82,8 +82,9 @@ export default function LandingPage() {
                         </div>
                     </div>
                 </div>
-            </section>
+                </section>
+            </main>
             <Footer />
-        </main>
+        </div>
     );
 }

@@ -1,6 +1,6 @@
 {
-  "/home/page": "app/home/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/about/page": "app/about/page.js",
-  "/donate/page": "app/donate/page.js"
+  "/home/page": "app/home/page.js",
+  "/join/page": "app/join/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }
