@@ -4,8 +4,7 @@ import "./about.css"
 import "../styles/fonts.css"
 
 let officers = [{"Name": "Saketh Bongu", "Description": "Saketh is currently a sophomore in the Class of 2026 at BRHS in New Jersey. He loves to volunteer and has great interest in the Finance and Economics field. At school he partakes in FBLA, Bloom Institute, and plays Lacrosse and does Track. In his free time, Saketh enjoys going on bike rides, playing video games, or playing basketball at his local park."},
-            {"Name": "Ethan Chan", "Description": "Ethan is a sophomore in Bridgewater Raritan High School. He volunteers to serve his community, and wants to explore an engineering field. He enjoys playing video games and talking with friends in his free time."},
-            {"Name": "Arya Vaidya", "Description": "Built the website."}]
+            {"Name": "Ethan Chan", "Description": "Ethan is a sophomore in Bridgewater Raritan High School. He volunteers to serve his community, and wants to explore an engineering field. He enjoys playing video games and talking with friends in his free time."}]
 
 
 export default function AboutPage() {
@@ -31,14 +30,7 @@ export default function AboutPage() {
                         <img className="blankImg saketh-story-img" src="images/india-water.jpg" style={{height: 312.5, width: 500}} />
                     </div>
 
-                    <div className="storySection">
-                        <img className="blankImg" src="/images/boy-drinking-water.jpg" style={{height: 312.5, width: 500}} />
-                        <p className="storyText cloud-3 manrope-regular">
-                            <p className="cloudText"><br></br><br></br>For Arya&apos;s whole life, he had always had a particular interest in trying to save our planet and our people with any type of technology. When he went to Mumbai in 2019 for the summer, it was there he understood how hard it was for people to get water just to survive and feed their families. After that trip and hearing about this new foundation that Saketh and Ethan started, I jumped to join and gladly offered my coding expertise to help make the Fresh Future Foundation website.</p>
-                        </p>
-                    </div>
-
-                    <p className="storyStartEnd end-text manrope-medium">These three kids met in high school, became friends, and shared this one question: How could the issue of water purity be fixed? Saketh researched the problem and found very few people attempting to make a difference in the parts of the world they had seen. Ethan became interested in devising a solution to this question and researched different methods for purifying water. Arya spent countless hours building this website in order to make our information more accisible and stylish at the same time. They combined their ideas and decided to create the Fresh Future Foundation because it was something they truly cared about and wanted to see change in the world.</p>
+                    <p className="storyStartEnd end-text manrope-medium">These two kids met in high school, became friends, and shared this one question: How could the issue of water purity be fixed? Saketh researched the problem and found very few people attempting to make a difference in the parts of the world they had seen. Ethan became interested in devising a solution to this question and researched different methods for purifying water. Arya spent countless hours building this website in order to make our information more accisible and stylish at the same time. They combined their ideas and decided to create the Fresh Future Foundation because it was something they truly cared about and wanted to see change in the world.</p>
                 </div>
                 <div className="about-center bottomdiv">
                     <h1 className="header-text redhat-bold">Meet The Team</h1>
@@ -60,7 +52,6 @@ export default function AboutPage() {
                                 <p className="break-line"></p>
                             </div>
                             <div className="disc-div"><p className="person-disc manrope-light">Ethan is a junior currently attending Bridgewater-Raritan High School.  He volunteers to serve his community, partakes in extra-curriculars to better round himself, and aspires to explore the engineering field. In his free time, he enjoys playing video games and talking with friends.</p></div>
-                        </div>
                         </div>
                         <div className="person-card">
                             <div className="stuff-div">
